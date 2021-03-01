@@ -1,0 +1,66 @@
+.feed {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    flex: 0.8;
+    background-color: rgba(240, 230, 140, 0.047);
+    margin-right: 20px;
+}
+
+.feed__header{
+    display: flex;
+    flex-direction: row;
+    margin: 10px auto;
+}
+
+.feed__header-title {
+    width: 50vw;
+    height: fit-content;
+    padding: 10px;
+    background-color: black;
+    border:1px solid white;
+}
+
+.feed__header-title > p {
+    color: lightcoral;
+    text-align: center;
+    font-size: 20px;
+}
+
+.feed__header-i {
+    position: absolute;
+    right: 10px;
+}
+
+.feed__question{
+    text-align: center;
+    width: 50vw;
+    height: fit-content;
+    padding: 10px;
+    background-color: rgba(35, 35, 35, 0.728);
+    border:1px solid white ;
+    border-radius: 10px;
+    margin: 20px auto 20px auto;
+}
+
+.feed__question > h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: 200;
+    padding-bottom: 20px;
+}
+
+.feed__question > p {
+    color: white;
+    font-size: 12px;
+}
+
+.feed__cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex: 1 1 100px;
+    padding: 30px;
+    justify-content: space-evenly;
+    overflow: hidden;
+}
