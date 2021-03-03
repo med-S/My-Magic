@@ -62,5 +62,24 @@
     flex: 1 1 100px;
     padding: 30px;
     justify-content: space-evenly;
-    overflow: hidden;
+    overflow-x: hidden;
+}
+
+.feed__buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.feed__buttons > button {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    margin: auto 15px;
+    width: 100px;
+    height: 35px;
+    background: linear-gradient(to bottom, rgb(209, 9, 216), rgba(209, 9, 216, 0.476));
+    border: 1px solid grey;
+    border-radius: 25px;
 }

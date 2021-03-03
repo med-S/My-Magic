@@ -16,19 +16,15 @@
     margin: auto 0;
 }
 
-.card > input {
+.card > h4 {
     background: none;
     border: 1px solid white;
     border-radius: 10px;
     width: 40px;
-    height: 20px;
+    height: 22px;
     align-self: center;
-}
-
-.card > input[type=number] {
     color: white;
     text-align: center;
     font-size: 18px;
     justify-content: center;
-    padding-left: 10px;
 }

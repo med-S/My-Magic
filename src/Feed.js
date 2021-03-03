@@ -30,7 +30,8 @@ function Feed() {
                 <Card text="Réalisation exceptionnelle pro ou perso" color="pink"/>
             </div>
             <div className="feed__buttons">
-
+                <button type="submit">Retour</button>
+                <button type="submit">Suivant</button>
             </div>
         </div>
     )
